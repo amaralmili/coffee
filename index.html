@@ -22,10 +22,11 @@
     }
     .playfair {
         font-family: 'Playfair Display', serif;
+        display: inline-block;
     }
   </style>
 </head>
-<body class="h-screen bg-cover bg-center text-white" style="background-image: url('header.jpg');">
+<body class="h-screen bg-cover bg-center text-white" style="background-image: url('./img/banner.jpg');">
 
   <header class="flex justify-between items-center px-25 py-6 bg-gradient-to-b from-black via-black/60 to-transparent">
     <div class="logo text-4xl ml-[9%]">Bean Scene</div>
@@ -37,10 +38,23 @@
         <li><a href="#" class="hover:text-yellow-400">Contact Us</a></li>
       </ul>
     </nav>
-    <div class="flex gap-4 playfair">
+    <div class="flex gap-8 playfair">
       <a href="#" class="text-white underline">Sign In</a>
       <a href="#" class="bg-[#F9C06A] text-black px-6 py-2 rounded-full shadow-md hover:bg-yellow-500 transition">Sign Up</a>
     </div>
   </header>
+
+  <main>
+    <section class="flex flex-col justify-center h-[80vh] px-16 max-w-xl">
+      <h2 class="text-2xl font-light mb-10 mt-40 playfair">We’ve got your morning covered with</h2>
+      <h1 class="coffee-text text-[220px] leading-none mb-10">Coffee</h1>
+      <p class="mt-5 text-2xl text-gray-200 playfair">
+        It is best to start your day with a cup of coffee. Discover the best flavours coffee you will ever have. We provide the best for our customers.
+      </p>
+      <a href="#" class="mt-6 bg-[#F9C06A] playfair text-black font-semibold px-6 py-3 rounded-full shadow-md w-fit hover:bg-yellow-500 transition text-xl">
+        Order Now
+      </a>
+    </section>
+  </main>
 </body>
 </html>
