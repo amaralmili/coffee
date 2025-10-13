@@ -20,6 +20,17 @@
       .playfair {
           font-family: 'Playfair Display', serif;
       }
+
+      .pingado {
+        background-image: 
+          linear-gradient(rgba(96, 56, 9, 0.7), rgba(96, 56, 9, 0.7)),
+          url("pingado.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+      }
+
     </style>
 
   </head>
@@ -169,11 +180,11 @@
           </div>
         </div>
       </section>
-      <section class="pingado container mx-auto py-16 px-8">
-        <div class="grid md:grid-cols-2 gap-16 items-center">
-          <div class="text-left">
+      <section class="pingado w-full py-16 relative">
+        <div class="grid md:grid-cols-2 gap-64 items-center">
+          <div class="text-left pl-16">
             <h2 class="text-5xl playfair font-bold mb-6">Get a chance to have an Amazing morning</h2>
-            <p class="text-lg text-gray-700 leading-relaxed mb-8 playfair">
+            <p class="text-lg text-white leading-relaxed mb-8 playfair">
               We are giving you are one time opportunity to experience a better life with coffee.
             </p>
             <a href="#" class="mt-6 ml-10 bg-[#F9C06A] shadow-[0_2px_10px_0_#F9C06A80] playfair text-black font-semibold px-6 py-4 rounded-full hover:bg-yellow-500 transition text-xl">
@@ -182,9 +193,10 @@
           </div>
           
           <div>
-            <img src="" alt="" class="w-full h-auto">
+            <img src="copo.png" alt="Copo de café" class="w-64 h-auto relative z-10">
           </div>
         </div>
+        <img src="graos.png" alt="Grãos de café" class="w-[400px] h-auto absolute right-0 bottom-0 z-0">
       </section>
     </main>
   </body>
