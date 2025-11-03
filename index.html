@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -37,19 +38,19 @@
   </head>
   <body class="bg-white text-white">
     <section class="h-screen bg-cover bg-center" style="background-image: url('header.jpg');">
-      <header class="flex justify-between items-center px-25 py-4 bg-gradient-to-b from-black via-black/60 to-transparent">
-        <div class="logo text-4xl ml-[7%]">Bean Scene</div>
+      <header class="flex justify-between items-center px-8 py-4 bg-gradient-to-b from-black via-black/60 to-transparent w-full">
+        <div class="logo text-4xl ml-[7%] text-white">Bean Scene</div>
         <nav aria-label="Main navigation">
-          <ul class="flex gap-[4vw]  text-base">
+          <ul class="flex gap-[4vw] text-base text-white">
             <li><a href="#" class="hover:text-yellow-400">Home</a></li>
             <li><a href="#" class="hover:text-yellow-400">Menu</a></li>
             <li><a href="#" class="hover:text-yellow-400">About Us</a></li>
             <li><a href="#" class="hover:text-yellow-400">Contact Us</a></li>
           </ul>
         </nav>
-        <div class="flex gap-4  mr-[9%]">
-          <a href="#" class="text-white underline pr-4 mt-3">Sign In</a>
-          <a href="#" class="bg-[#F9C06A] text-black px-6 py-2 rounded-full shadow-[0_2px_10px_0_#F9C06A80] hover:bg-yellow-500 transition">SignUp</a>
+        <div class="flex gap-4 mr-[6%] items-center">
+          <a href="#" class="text-white underline pr-4">Sign In</a>
+          <a href="#" class="bg-[#F9C06A] text-black px-8 py-3 rounded-full shadow-[0_2px_10px_0_#F9C06A80] hover:bg-yellow-500 transition">SignUp</a>
         </div>
       </header>
       <section class="flex flex-col justify-center h-[80vh] px-16 max-w-xl">
@@ -89,46 +90,50 @@
       Explore all flavours of coffee with us. There is always a new cup worth experiencing
       </p>
 
-<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto px-4">
-    <div class="bg-[#FFF9F1] shadow-md overflow-hidden border border-[#F9E5B0] pb-8">
-      <img src="capuccino.jpg" alt="Cappuccino" class="w-full h-60 object-cover">
-      <div class="p-6 text-center">
+ <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-7xl mx-auto px-2">
+  <div class="bg-[#FFF9F1] overflow-visible border border-[#F9E5B0] pb-10 relative">
+      <img src="capuccino.jpg" alt="Cappuccino" class="w-full h-48 object-cover">
+      <div class="p-4 text-center">
         <h3 class="text-2xl text-[#603809] font-semibold mb-1">Cappuccino</h3>
-        <p class="text-gray-600 text-sm mb-2">Coffee 50% | Milk 50%</p>
-        <p class="text-2xl text-[#603809] font-bold mb-4">$8.50</p>
-        <a href="#" class="bg-[#F9C06A] text-[#603809] font-semibold px-8 py-3 rounded-full shadow-md hover:bg-[#e0a95f] transition">Order Now</a>
+        <p class="text-[#1E1E1E] text-base mb-2">Coffee 50% | Milk 50%</p>
+        <p class="text-xl text-[#603809] font-bold">$8.50</p>
       </div>
+       <a href="#" class="absolute left-1/2 -bottom-6 transform -translate-x-1/2 bg-[#F9C06A] text-[#603809] font-semibold px-4 py-3 rounded-full w-fit hover:bg-yellow-500 text-xl">Order Now</a>
     </div>
-    <div class="bg-[#FFF9F1] shadow-md overflow-hidden border border-[#F9E5B0] pb-8">
-      <img src="chai-latte.jpg" alt="Chai Latte" class="w-full h-60 object-cover">
-      <div class="p-6 text-center">
+
+  <div class="bg-[#FFF9F1] overflow-visible border border-[#F9E5B0] pb-10 relative">
+      <img src="chai-latte.jpg" alt="Chai Latte" class="w-full h-48 object-cover">
+      <div class="p-4 text-center">
         <h3 class="text-2xl text-[#603809] font-semibold mb-1">Chai Latte</h3>
-        <p class="text-gray-600 text-sm mb-2">Coffee 50% | Milk 50%</p>
-        <p class="text-2xl text-[#603809] font-bold mb-4">$8.50</p>
-        <a href="#" class="bg-[#F9C06A] text-[#603809] font-semibold px-8 py-3 rounded-full shadow-md hover:bg-[#e0a95f] transition">Order Now</a>
+        <p class="text-[#1E1E1E] text-base mb-2">Coffee 50% | Milk 50%</p>
+        <p class="text-xl text-[#603809] font-bold">$8.50</p>
       </div>
+      <a href="#" class="absolute left-1/2 -bottom-6 transform -translate-x-1/2 bg-[#F9C06A] text-[#603809] font-semibold px-4 py-3 rounded-full w-fit hover:bg-yellow-500 text-xl">Order Now</a>
     </div>
-    <div class="bg-[#FFF9F1] shadow-md overflow-hidden border border-[#F9E5B0] pb-8">
-      <img src="machiatto.jpg" alt="Macchiato" class="w-full h-60 object-cover">
-      <div class="p-6 text-center">
+
+  <div class="bg-[#FFF9F1] overflow-visible border border-[#F9E5B0] pb-10 relative">
+      <img src="machiatto.jpg" alt="Macchiato" class="w-full h-48 object-cover">
+      <div class="p-4 text-center">
         <h3 class="text-2xl text-[#603809] font-semibold mb-1">Macchiato</h3>
-        <p class="text-gray-600 text-sm mb-2">Coffee 50% | Milk 50%</p>
-        <p class="text-2xl text-[#603809] font-bold mb-4">$8.50</p>
-        <a href="#" class="bg-[#F9C06A] text-[#603809] font-semibold px-8 py-3 rounded-full shadow-md hover:bg-[#e0a95f] transition">Order Now</a>
+        <p class="text-[#1E1E1E] text-base mb-2">Coffee 50% | Milk 50%</p>
+        <p class="text-xl text-[#603809] font-bold">$8.50</p>
       </div>
+      <a href="#" class="absolute left-1/2 -bottom-6 transform -translate-x-1/2 bg-[#F9C06A] text-[#603809] font-semibold px-4 py-3 rounded-full w-fit hover:bg-yellow-500 text-xl">Order Now</a>
     </div>
-    <div class="bg-[#FFF9F1]  shadow-md overflow-hidden border border-[#F9E5B0] pb-8">
-      <img src="expresso.jpg" alt="Expresso" class="w-full h-60 object-cover">
-      <div class="p-6 text-center">
-        <h3 class="text-2xl text-[#603809] font-semibold mb-1">Expresso</h3>
-        <p class="text-gray-600 text-sm mb-2">Coffee 50% | Milk 50%</p>
-        <p class="text-2xl text-[#603809] font-bold mb-4">$8.50</p>
-        <a href="#" class="bg-[#F9C06A] text-[#603809] font-semibold px-8 py-3 rounded-full shadow-md hover:bg-[#e0a95f] transition">Order Now</a>
+
+  <div class="bg-[#FFF9F1] overflow-visible border border-[#F9E5B0] pb-10 relative">
+      <img src="expresso.jpg" alt="Expresso" class="w-full h-48 object-cover">
+      <div class="p-4 text-center">
+        <h3 class="text-2xl text-[#603809] font-semibold mb-1</div>">Expresso</h3>
+        <p class="text-[#1E1E1E] text-base mb-2">Coffee 50% | Milk 50%</p>
+        <p class="text-xl text-[#603809]</div> font-bold ">$8.50</p>
       </div>
+      <a href="#" class="absolute left-1/2 -bottom-6 transform -translate-x-1/2 bg-[#F9C06A] text-[#603809] font-semibold px-4 py-3 rounded-full w-fit hover:bg-yellow-500 text-xl">Order Now</a>
     </div>
   </div>
       </section>
-<section class="pb-24 relative">
+<section class="pb-24 relative
+">
   <div>
     <section class="text-[#603809] relative">
 
@@ -136,48 +141,39 @@
       
       <div class="container mx-auto text-center relative z-20 mt-10">
         <h2 class="text-6xl pt-24 font-bold">Why are we different?</h2>
-        <p class="mt-4 text-2xl">
+        <p class="mt-4 text-2xl text-[#707070]">
           We don't just make your coffee, we make your day!
         </p>
       </div>
     </section>
   </div>
 </section>
-          <section class="grid grid-cols-4 gap-16 px-4 relative z-10">
-            <div class="bg-[#FEF3E7] h-80 flex flex-col justify-center items-center text-center p-8 w-full">
-              <img src="graos-de-cafe.png" alt="icon" class="w-20 h-20 mb-6">
-              <h3 class="text-2xl font-bold text-[#5C3317]">Supreme Beans</h3>
-              <p class="text-gray-500 text-lg mt-2">Beans that provides<br> great taste</p>
-            </div>
+         <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-8 max-w-7xl mx-auto">
+  <div class="bg-[#FFEED8] h-72 flex flex-col justify-center items-center text-center p-10">
+    <img src="graos-de-cafe.png" alt="icon" class="w-24 h-24 mb-6">
+    <h3 class="text-3xl font-bold text-[#5C3317]">Supreme Beans</h3>
+    <p class="text-[#707070] text-2xl mt-2 leading-tight">Beans that provides great taste</p>
+  </div>
 
-            <div class="bg-[#FFFBF6] h-80 flex flex-col justify-center items-center text-center p-8 border border-[#FBE9DA] w-full">
-              <img src="distintivo.png" alt="icon" class="w-20 h-20 mb-6">
-              <h3 class="text-2xl font-bold text-[#5C3317]">High Quality</h3>
-              <p class="text-gray-500 text-lg mt-2">We provide the<br> highest quality</p>
-            </div>
+  <div class="bg-[#FFF9F1] h-72 flex flex-col justify-center items-center text-center p-10 border border-[#F9C06A]">
+    <img src="distintivo.png" alt="icon" class="w-24 h-24 mb-6">
+    <h3 class="text-3xl font-bold text-[#5C3317]">High Quality</h3>
+    <p class="text-[#707070] text-2xl mt-2 leading-tight">We provide the highest quality</p>
+  </div>
 
-            <div class="bg-[#FFFBF6] h-80 flex flex-col justify-center items-center text-center p-8 border border-[#FBE9DA] w-full">
-              <img src="xicara-de-cafe.png" alt="icon" class="w-20 h-20 mb-6">
-              <h3 class="text-2xl font-bold text-[#5C3317]">Extraordinary</h3>
-              <p class="text-gray-500 text-lg mt-2">Coffee like you have<br> never tasted</p>
-            </div>
+  <div class="bg-[#FFF9F1] h-72 flex flex-col justify-center items-center text-center p-10 border border-[#F9C06A]">
+    <img src="xicara-de-cafe.png" alt="icon" class="w-24 h-24 mb-6">
+    <h3 class="text-3xl font-bold text-[#5C3317]">Extraordinary</h3>
+    <p class="text-[#707070] text-2xl mt-2 leading-tight">Coffee like you have never tasted</p>
+  </div>
 
-            <div class="bg-[#FFFBF6] h-80 flex flex-col justify-center items-center text-center p-8 border border-[#FBE9DA] w-full">
-              <img src="lucros.png" alt="icon" class="w-20 h-20 mb-6">
-              <h3 class="text-2xl font-bold text-[#5C3317]">Affordable Price</h3>
-              <p class="text-gray-500 text-lg mt-2">Our Coffee prices are<br> easy to afford</p>
-            </div>
-          </section>
-
-          <div class="text-center mt-8 relative z-10">
-            <p class="text-gray-400 pt-4 text-2xl">Great ideas start with great coffee, Let’s help you achieve that</p>
-            <h3 class="text-4xl  font-bold my-4">Get started today.</h3>
-            <a href="#" class="mb-[5%] bg-[#F9C06A] text-black font-semibold px-10 py-4 rounded-full shadow-[0_2px_10px_0_#F9C06A80] hover:bg-yellow-500 transition inline-block text-lg">
-              Join Us
-            </a>
-          </div>
-        </div>
-      </section>
+  <div class="bg-[#FFF9F1] h-72 flex flex-col justify-center items-center text-center p-10 border border-[#F9C06A]">
+    <img src="lucros.png" alt="icon" class="w-24 h-24">
+    <h3 class="text-3xl font-bold text-[#5C3317]">Affordable Price</h3>
+    <p class="text-[#707070] text-2xl mt-2 leading-tight">Our Coffee prices are easy to afford</p>
+  </div>
+</section>
+<div class="text-center mt-8 relative z-10"> <p class="text-[#707070] pt-4 text-2xl">Great ideas start with great coffee, Let’s help you achieve that</p> <h3 class="text-4xl font-bold my-4">Get started today.</h3> <a href="#" class="mb-[5%] bg-[#F9C06A] text-black font-semibold px-10 py-3 rounded-full shadow-[0_2px_10px_0_#F9C06A80] hover:bg-yellow-500 transition inline-block text-lg"> Join Us </a> </div> </div> </section>
       <section class="pingado w-full py-16 relative">
         <div class="grid md:grid-cols-2 gap-64 items-center">
           <div class="text-left pl-16">
@@ -196,26 +192,26 @@
       </section>
 <section class="relative py-24 overflow-hidden">
 
-    <img src="liquido.png" alt="efeito café" class="absolute top-0 right-0 w-[500px] h-auto z-10 mt-[160px]">
-    <img src="liquidvirado.png" alt="efeito café" class="absolute bottom-0 left-0 w-[450px] h-auto z-10">
+    <img src="liquido.png" alt="efeito café" class="absolute top-0 right-0 w-[500px] h-auto z-10 mt-[160px]">
+    <img src="liquidvirado.png" alt="efeito café" class="absolute bottom-0 left-0 w-[450px] h-auto z-10">
 
-    <div class="relative text-center text-[#603809] flex flex-col items-center">
+    <div class="relative text-center text-[#603809] flex flex-col items-center">
 
-  <h2 class="relative z-20 text-5xl font-bold mb-3">Our coffee perfection feedback</h2>
-  <p class="relative z-20 text-[#707070] text-xl mb-6">Our customers has amazing things to say about us</p>
+  <h2 class="relative z-20 text-6xl font-bold mb-4">Our coffee perfection feedback</h2>
+  <p class="relative z-20 text-[#707070] text-2xl mb-8">Our customers has amazing things to say about us</p>
 
-        <div class="relative bg-[#FFF9F1] border border-[#F9C06A] w-[70%] h-[550px] mx-auto flex flex-col justify-center items-center">
+        <div class="relative bg-[#FFF9F1] border border-[#F9C06A] w-[70%] h-[550px] mx-auto flex flex-col justify-center items-center">
     <blockquote class="text-left text-[220px] font-bold text-[#603809] absolute top-[-30px] left-8" style="font-family: 'Playfair Display', serif;">“</blockquote>
 
-    <p class="text-[20px] text-[#707070] font-medium text-center w-[80%] mx-auto leading-loose mt-[240px]">
-       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset.....    </p>
+    <p class="text-[20px] text-[#707070] font-semibold text-center w-[80%] mx-auto leading-loose mt-[240px]">
+       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset.....    </p>
 
     <h3 class="text-3xl font-bold text-[#603809] mt-10">Jonny Thomas</h3>
     <p class="text-[#8B8B8B] text-xl mb-4
     1">Project Manager</p>
     <img src="jonny.jpg" alt="Jonny Thomas" class="w-[100px] h-[100px] object-cover rounded-2xl mx-auto mt-6 shadow-md">
-    
- 
+    
+ 
 <button class="absolute left-[-40px] top-1/2 transform -translate-y-1/2 bg-[#F9C06A] hover:bg-yellow-500 transition text-[#603809] rounded-xl w-20 h-20 flex items-center justify-center shadow-md">
       <span class="text-4xl">←</span>
     </button>
