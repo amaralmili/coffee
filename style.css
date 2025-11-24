@@ -1,0 +1,27 @@
+/* Carousel + testimonial styles */
+.carousel-track { width: 100%; overflow: hidden; }
+.carousel-slides { display: flex; width: 300%; transition: transform 700ms cubic-bezier(.2,.9,.25,1); }
+.carousel-slide { width: 100%; box-sizing: border-box; }
+
+.carousel-slide .rounded-lg { min-height: 260px; }
+
+.testimonial-prev, .testimonial-next { z-index: 30; }
+
+.carousel-dots button { width: 10px; height: 10px; background: #E6D6B3; border-radius: 9999px; border: none; padding:0; }
+.carousel-dots button.active { background: #603809; transform: scale(1.15); }
+
+/* make slides centered and add fade for image */
+.carousel-slide .shadow-lg { transition: transform 400ms ease, box-shadow 400ms ease; }
+.carousel-slide .shadow-lg:hover { transform: translateY(-6px); box-shadow: 0 22px 44px rgba(96,56,9,0.12); }
+
+@media (min-width: 768px){
+  .carousel-slides { width: 300%; }
+}
+
+/* small accessibility focus styles */
+.testimonial-prev:focus, .testimonial-next:focus, .carousel-dots button:focus { outline: 3px solid rgba(96,56,9,0.18); outline-offset: 4px; }
+
+/* keep existing float animations (if inline ones removed) */
+@keyframes float { 0% { transform: translateY(0px); } 50% { transform: translateY(-15px); } 100% { transform: translateY(0px); } }
+.float-animation { animation: float 4s ease-in-out infinite; }
+.float-animation-delay { animation: float 5s ease-in-out infinite; animation-delay: 1s; }
