@@ -4,7 +4,7 @@ Uma página web que fornece conteúdo, informações e produtos relacionados a c
 ## Menu
 - [Sobre](#sobre)
 - [Tecnologias](#tecnologias)
-- [Instalação](#instalacao)
+- [Instalação](#como-visualizar-o-projeto)
 - [Referências](#referencias)
 
 ### Sobre
@@ -13,36 +13,27 @@ Nosso projeto consiste em uma landing page focada em café, trazendo curiosidade
 ### Tecnologias
 Escolhemos para este projeto trabalhar com **HTML**, **CSS** e **JavaScript Vanilla**, utilizando o framework **Tailwind** para estilização dos elementos. As tecnologias foram escolhidas com base no estudo para simplificar o desenvolvimento, levando em consideração a continuidade do projeto, bem como nossa experiência prévia nelas. 
 
-### Instalação 
-1- Clone o repositório:
-   ```bash
-   git clone https://github.com/amaralmili/coffee
-   ```
 
-2- Entre na pasta do projeto:
-   ```bash
-   cd coffee
-   ```
+## Como Visualizar o Projeto
 
-3- Instale as dependências:
-   ```bash
-   npm install
-   ```
+Não é necessário instalar nada. Como o projeto utiliza CDNs, você pode rodá-lo diretamente:
 
-4- Rode o servidor de desenvolvimento:
-   ```bash
-   npm run server
-   ```
+1. **Baixe o projeto** (ou clone o repositório).
+2. Vá até a pasta onde salvou os arquivos.
+3. **Dê um duplo clique** no arquivo `index.html`.
+4. O site abrirá no seu navegador padrão.
 
-5- Abra no navegador:
-   ```bash
-   http://localhost:3000
-   ```
+---
+
+### Bibliotecas (via CDN)
+- [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)
+- [Swiper.js](https://swiperjs.com/)
+- [FontAwesome](https://fontawesome.com/)
 
 ### Referências
 - [Tailwind CSS](https://tailwindcss.com/docs)
 - [Documentação HTML (MDN)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [Documentação CSS (MDN)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript (MDN)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [Design Figma](https://www.figma.com/proto/BkjcczpKdT17oE3PQ1labe/Bean-Scene-Coffee-Landingpage--Community-?node-id=1-4&p=f&t=Zpu5BA9hiTp8ZbuT-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1as)
+- [Design Figma](https://www.figma.com/proto/BkjcczpKdT17oE3PQ1labe/Bean-Scene-Coffee-Landingpage--Community-?node-id=1-4&p=f&t=Zpu5BA9hiTp8ZbuT-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
 ```
